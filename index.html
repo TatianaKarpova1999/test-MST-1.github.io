@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru" data-validate="html">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>MST</title>
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+
+  <body class="page-body">
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__content">
+                <div class="header__logo">
+                    <span class="header__logo-text">Lotus</span>
+                </div>
+                <button class="header__toggle header__toggle-closed" type="button">
+                    <span class="visually-hidden">Menu</span>
+                </button>
+    
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                          <a class="header__link" href="#">Home</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Catalogue</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Contactus</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero__wrapper">
+            <div class="hero__content">        
+                <h1 class="hero__title">The MAKEUP That Wins Customers</h1>
+                <p class="hero__subtitle">Always be beautiful</p>
+        
+                <ul class="hero__list">
+                    <li class="hero__item">More than <span>3000</span> participants</li>
+                    <li class="hero__item">Participants from <span>60</span> countries</li>
+                    <li class="hero__item">From <span>$42</span> up to <span>$4,200</span> per product</li>
+                </ul>
+        
+                <a class="hero__button" href="#">Button</a>
+            </div>
+    
+            <img class="hero__image" src="img/hero.jpg" srcset="img/hero@2x.jpg" width="763" height="1009" alt="Photo of the building">
+        </div>
+    </section>
+
+    <main class="main">
+        <section class="advantages">
+            <div class="advantages__wrapper">
+                <h2 class="visually-hidden">Advantages</h2>
+                <img class="advantages__image" src="img/image-2.jpg" srcset="img/image-2@2x.jpg" width="622" height="724" alt="Photo of the building">
+
+                <div class="advantages__content">
+                    <ul class="advantages__list">
+                        <li class="advantages__item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</li>
+                        <li class="advantages__item">Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</li>
+                        <li class="advantages__item">Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</li>
+                        <li class="advantages__item">Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam.</li>
+                    </ul>
+        
+                    <a class="advantages__button" href="#">Button</a>
+                </div>
+
+                <img class="advantages__image" src="img/image-3.jpg" srcset="img/image-3@2x.jpg" width="589" height="724" alt="Photo of the building">
+            </div>
+        </section>
+
+        <section class="form">
+            <div class="form__wrapper">
+                <div class="form__container">
+                    <div class="form__content form-content">
+                        <h2 class="form-content__title">Enter your details</h2>
+                        <form class="form-content__form" action="https://echo.htmlacademy.ru" method="post">
+                            <ul class="form-content__list">
+                                <li class="form-content__item">
+                                  <label class="visually-hidden" for="name">Name</label>
+                                  <input class="form-content__input" type="text" id="name" name="name" placeholder="Name" required>
+                                </li>
+                                <li class="form-content__item">
+                                    <label class="visually-hidden" for="email">Email</label>
+                                    <input class="form-content__input" type="email" id="email" name="email" placeholder="Email" required>
+                                </li>
+                                <li class="form-content__item">
+                                    <input class="form-content__checkbox visually-hidden" type="checkbox" id="agreement" name="agreement" required>
+                                    <label class="form-content__agreement" for="agreement">I accept Privacy policy</label>
+                                </li>
+                            </ul>
+                            <button class="form-content__button" type="submit">Submit Form</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                      <a class="footer__link" href="#">Home</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Catalogue</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Contactus</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <a class="footer__logo-link" href="#">Lotus</a>
+                    <span class="footer__copyright">© 2024, Copyright.</span>
+                </div>
+
+                <div class="footer__social">
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a class="footer__social-link" href="#" rel="noreferrer noopener" target="_blank">
+                              <span class="visually-hidden">Instagram</span>
+                              <img src="./img/instagram.svg"  alt="Instagram" width="32" height="32">
+                            </a>
+                        </li>
+
+                        <li class="footer__social-item">
+                            <a class="footer__social-link" href="#" rel="noreferrer noopener" target="_blank">
+                              <span class="visually-hidden">Tiktok</span>
+                              <img src="./img/Tiktok.svg"  alt="Tiktok" width="32" height="32">
+                            </a>
+                        </li>
+
+                        <li class="footer__social-item">
+                            <a class="footer__social-link" href="#" rel="noreferrer noopener" target="_blank">
+                              <span class="visually-hidden">Linkedin</span>
+                              <img src="./img/Linkedin.svg"  alt="Linkedin" width="32" height="32">
+                            </a>
+                        </li>
+
+                        <li class="footer__social-item">
+                            <a class="footer__social-link" href="#" rel="noreferrer noopener" target="_blank">
+                              <span class="visually-hidden">Facebook</span>
+                              <img src="./img/Facebook.svg"  alt="Facebook" width="32" height="32">
+                            </a>
+                        </li>
+
+                        <li class="footer__social-item">
+                            <a class="footer__social-link" href="#" rel="noreferrer noopener" target="_blank">
+                              <span class="visually-hidden">Telegram</span>
+                              <img src="./img/Telegram.svg"  alt="Telegram" width="32" height="32">
+                            </a>
+                        </li>
+
+                        <li class="footer__social-item">
+                            <a class="footer__social-link" href="#" rel="noreferrer noopener" target="_blank">
+                              <span class="visually-hidden">Youtube</span>
+                              <img src="./img/Youtube.svg"  alt="Youtube" width="32" height="32">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <a class="footer__privacy" href="#">Privacy policy</a>
+                </div>
+
+                <div class="footer__button">
+                    <a class="footer__main-link" href="#">Button</a>
+                    <a class="footer__terms" href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
